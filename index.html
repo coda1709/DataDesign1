@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .container, .section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section, .footer{
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .section {
+            background-color: green;
+            color: white;
+        }
+        .third-section, .fourth-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .third-section {
+            background-color: white;
+            color: black;
+        }
+        .fourth-section {
+            background-color: black;
+            color: white;
+        }
+        .sixth-section {
+            background-color: white;
+            color: black;
+        }
+        .container h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .container button, .third-section button, .fourth-section button, .sixth-section button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .container button:hover, .third-section button:hover, .fourth-section button:hover, .sixth-section button:hover {
+            background-color: #218838;
+        }
+        .fourth-section button {
+            background-color: white;
+            color: black;
+        }
+        .section i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .section h2, .third-section h2, .fourth-section h2, .sixth-section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .section p, .third-section p, .fourth-section p, .sixth-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .third-section img, .fourth-section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: black;
+        }
+        .fourth-section img {
+            background-color: white;
+        }
+        .third-section .text-container, .fourth-section .text-container, .sixth-section .text-container {
+            flex: 1;
+            padding-left: 20px;
+            box-sizing: border-box;
+        }
+        .fifth-section {
+            display: flex;
+            padding: 0;
+            height: 200px;
+        }
+        .fifth-section img {
+            flex: 1;
+            position: relative;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        .sixth-section .pin {
+            font-size: 3em;
+            color: green;
+            margin-bottom: 10px;
+        }
+        .sixth-section .text-container {
+            padding: 0 10px;
+        }
+
+        .seventh-section{
+
+            background-color: green;
+
+
+
+        }
+
+        
+
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dramatically Engage</h1>
+        <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+        <button>Engage now</button>
+    </div>
+
+    <div class="section">
+        <i class="fas fa-apple-alt"></i>
+        <h2>Completely synergize resource taxing relationships</h2>
+        <p>Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+    </div>
+
+    <div class="third-section">
+        <img src="slika.jpg" alt="Slika">
+        <div class="text-container">
+            <h2>Best in Class</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Classify it</button>
+        </div>
+    </div>
+
+    <div class="fourth-section">
+        <div class="text-container">
+            <h2>Superior Quality</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Test it</button>
+        </div>
+        <img src="slika2.jpg" alt="Slika2">
+    </div>
+
+    <div class="fifth-section">
+        <img src="slika3.jpg" alt="Slika">
+        <img src="slika4.jpg" alt="Slika">
+        <img src="slika5.jpg" alt="Slika">
+    </div>
+
+    <div class="sixth-section">
+        <div class="pin"><i class="fas fa-thumbtack"></i></div>
+        <div class="text-container">
+            <h2>Sanity Check</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Check now</button>
+        </div>
+    </div>
+
+    <div class="seventh-section">
+
+        <h2>Contact us</h2>
+
+        <p>+1(23) 456 7890</p>
+
+        <p>info@example.com</p>
+
+
+
+
+    </div>
+
+
+
+    <div class="footer">
+
+   <p>Copyright @ Danilo Ivanovic 2024</p>
+
+   </div>
+
+
+
+</body>
+</html>
