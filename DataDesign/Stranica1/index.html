@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+     
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+   
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            line-height: 1.6;
+        }
+
+      
+        .container, .section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section, .footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .section {
+            background-color: green;
+            color: white;
+        }
+
+ 
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .section i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+       
+        .third-section, .fourth-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            gap: 20px;
+        }
+
+        .third-section {
+            background-color: white;
+            color: black;
+        }
+
+        .fourth-section {
+            background-color: black;
+            color: white;
+        }
+
+        .third-section img, .fourth-section img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .text-container {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .fourth-section button {
+            background-color: white;
+            color: black;
+        }
+
+      
+        .fifth-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .fifth-section img {
+            flex: 1 1 calc(33.333% - 10px);
+            max-width: calc(33.333% - 10px);
+            height: auto;
+            object-fit: cover;
+        }
+
+        .sixth-section {
+            background-color: white;
+            color: black;
+            padding: 40px 20px;
+        }
+
+        .sixth-section .pin {
+            font-size: 3em;
+            color: green;
+            margin-bottom: 10px;
+        }
+
+        .seventh-section {
+            background-color: green;
+            color: white;
+            padding: 40px 20px;
+        }
+
+      
+        .footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            color: white;
+        }
+
+      
+
+     
+        @media (max-width: 1024px) {
+            .third-section, .fourth-section {
+                flex-direction: column;
+            }
+
+            .fifth-section img {
+                flex: 1 1 calc(50% - 10px);
+                max-width: calc(50% - 10px);
+            }
+        }
+
+      
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .fifth-section img {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+            button {
+                padding: 8px 20px;
+                font-size: 0.9em;
+            }
+        }
+
+ 
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            button {
+                padding: 7px 15px;
+                font-size: 0.8em;
+            }
+
+            .third-section img, .fourth-section img {
+                max-width: 200px;
+            }
+
+            .sixth-section .pin {
+                font-size: 2em;
+            }
+        }
+
+      
+        @media (max-width: 320px) {
+            h1 {
+                font-size: 1.2em;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+            p {
+                font-size: 0.8em;
+            }
+
+            button {
+                padding: 5px 10px;
+                font-size: 0.7em;
+            }
+
+            .third-section img, .fourth-section img {
+                max-width: 150px;
+            }
+
+            .sixth-section .pin {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="container">
+        <h1>Dramatically Engage</h1>
+        <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+        <button>Engage now</button>
+    </div>
+
+ 
+    <div class="section">
+        <i class="fas fa-apple-alt"></i>
+        <h2>Completely synergize resource taxing relationships</h2>
+        <p>Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+    </div>
+
+   
+    <div class="third-section">
+        <img src="slika.jpg" alt="Image 1">
+        <div class="text-container">
+            <h2>Best in Class</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Classify it</button>
+        </div>
+    </div>
+
+ 
+    <div class="fourth-section">
+        <div class="text-container">
+            <h2>Superior Quality</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Test it</button>
+        </div>
+        <img src="slika2.jpg" alt="Image 2">
+    </div>
+
+ 
+    <div class="fifth-section">
+        <img src="slika3.jpg" alt="Image 3">
+        <img src="slika4.jpg" alt="Image 4">
+        <img src="slika5.jpg" alt="Image 5">
+    </div>
+
+    <div class="sixth-section">
+        <div class="pin"><i class="fas fa-thumbtack"></i></div>
+        <div class="text-container">
+            <h2>Sanity Check</h2>
+            <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            <button>Check now</button>
+        </div>
+    </div>
+
+    <div class="seventh-section">
+        <h2>Contact Us</h2>
+        <p>+1(23) 456 7890</p>
+        <p>info@example.com</p>
+    </div>
+
+   
+    <div class="footer">
+        <p>&copy; Danilo Ivanovic 2024</p>
+    </div>
+
+</body>
+</html>
